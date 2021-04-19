@@ -1,0 +1,116 @@
+body { 
+    margin: 0 !important;
+}
+
+#intro{
+    background-color: #3F81F3;
+    color: white;
+    height: 45px;
+    padding-left: 20%;
+    font-weight: 600;
+}
+
+.main_body {
+    margin-top: 15px;
+    border-style: groove;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: thin;
+}
+
+.content{
+    margin: 10px;
+}
+
+.intro_text{
+    padding-top: 10px !important;
+    font-size: medium;
+}
+
+h2{
+    font-weight: 600;
+    margin: 0;
+}
+
+#p1{
+    margin: 0;
+    color: grey;
+}
+
+#username{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#btn_submit{
+    width: 100%;
+    background-color: #00A277;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+
+#profile_btn{
+    background-color: #00A277;
+    width: 100%;
+}
+#profile_url{
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+#left{
+    left: 0;
+    height: 300px;
+    width: 250px;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    border: none;
+}
+td{
+    font-weight: 400;
+}
+
+.lt{
+    width: 250px;
+}
+#res{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc!important;
+    border-width: thin;
+    border-color: gray;
+}
+.btn{
+    color: white;
+    max-height: min-content;
+    max-width: min-content;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 25px;
+    background-color: rgb(209, 209, 209);
+    font-weight: 600;
+}
+
+.footer_text{
+    padding-top: 40px !important;
+    padding-bottom: 15px !important;
+    font-size: medium;
+}

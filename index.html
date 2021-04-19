@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="intro">
+        <p class="intro_text">Github Finder</p>
+    </div>
+
+    <div class="main_body">
+        <div class="content">
+            <h2>Search GitHub Users</h2>
+           <p id="p1">Enter a username to get user details and repos</p>
+           <div id="msg" style="color: red; font-weight: 600; font-size: medium;"></div>
+           <form id="u_form">
+               <input type="text" id="username" placeholder="GitHub Username...">
+               <button type="submit" id="btn_submit">Search</button>
+           </form>
+        </div>
+    </div>
+
+    <div class="main_body" id="result">
+        <div class="content">
+            <table>
+                <tr>
+                    <th class="lt">
+                        <div id="left">
+                            <img src="assets/image/1.jpg" alt="profile image"><br>
+                            <button type="submit" id="profile_btn"><a id="profile_url" href="#">View Profile</a></button>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="right">
+                            <div style="margin-bottom: 20px;">
+                                <button class="btn" style="background-color: blue;">Public Repos: </button>
+                                <button class="btn" style="background-color: gray;">Public Gits: </button>
+                                <button class="btn" style="background-color: green;">Followers: </button>
+                                <button class="btn" style="background-color: dodgerblue;">Following: </button>
+                            </div>
+                            <table id="res">
+                                <tr><td class="info">Company: </td></tr>
+                                <tr><td class="info">Website/Blog: </td></tr>
+                                <tr><td class="info">Location: </td></tr>
+                                <tr><td class="info" style="border: none;">Member Since: </td></tr>
+                            </table>
+                        </div> 
+                    </th> 
+                  </tr>
+            </table>         
+        </div>
+    </div>
+
+    <div id="footer">
+        <p class="footer_text" style="text-align: center;">GitHub Finder &#169;K. M. Emon Ahmed</p>
+    </div>  
+<script src="assets/js/script.js"></script>
+</body>
+</html>
